@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mine Sweeper</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="initGame()">
+    <h1>Mine Sweeper</h1>
+    <h2 class="heart"></h2>
+    <div>
+        <button class="smile" onclick="resetGame()">🙂</button>
+    </div>
+    <button class="level" onclick="changeLevel(4,2)">Begginer</button>
+    <button class="level" onclick="changeLevel(8,12)">Intermediate</button>
+    <button class="level" onclick="changeLevel(12,30)">Expert</button>
+    <div class="timer">00:00</div>
+    <table border="1" cellpadding="10">
+        <tbody class="board">
+        </tbody>
+    </table>
+    <footer>
+        By Amit Doanias
+    </footer>
+</body>
+<script src="js/main.js"></script>
+<script src="js/utiles.js"></script>
+
+</html>

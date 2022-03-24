@@ -1,0 +1,71 @@
+body{
+    text-align: center;
+    background-color: rgb(52, 50, 50);
+    color: white;
+    margin: auto;
+    margin-top: 80px;
+}
+
+button{
+    /* background-color: lightslategray; */
+    background-color: gray;
+    color: white;
+    width: 100px;
+    height: 80px;
+    border: 50%;
+
+}
+
+button:hover{
+    background-color:rgb(72, 86, 99);
+}
+
+h1{
+    text-align: center;
+}
+
+.board td {
+    margin: auto;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    transition: 0.5s;
+    
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    cursor: grab;
+}
+
+.timer{
+    margin-bottom: 15px;
+    font-size: large;
+    font-style: oblique;
+}
+
+.is-shown {
+    background-color: gray;
+}
+
+.is-mine.is-shown{
+    background-color: rgb(165, 33, 33);
+}
+
+.is-marked{
+    background-color: rgb(201, 57, 57);
+}
+
+.footer {
+    background-color: gray;
+    color: white;
+}
+
+.smile{
+    background-color: gray;
+    color: white;
+    width: 50px;
+    height: 50px;
+    border: 50%;
+}
